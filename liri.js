@@ -39,7 +39,7 @@ if (process.argv[2] === "spotify-this-song") {
     // console.log("This: " + JSON.stringify(data));
     // console.log("Then this: " + JSON.stringify(data.tracks));
     // console.log("Last this: " + JSON.stringify(data.tracks.href));
-    console.log("Track title: " + data.tracks.items[0].album.name);
+    console.log("Album title: " + data.tracks.items[0].album.name);
     console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
 
   });
